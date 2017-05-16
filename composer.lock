@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "edb142c7cb685f933225f4f5b4ea2ad1",
+    "content-hash": "62bdd4b8df5985bd498e7e14d5bd57d9",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -1047,6 +1047,59 @@
                 "sql"
             ],
             "time": "2014-01-12T16:20:24+00:00"
+        },
+        {
+            "name": "kartik-v/bootstrap-fileinput",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kartik-v/bootstrap-fileinput.git",
+                "reference": "9e39f4fd901e54b18ef9d9a188f9178c36b709c2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kartik-v/bootstrap-fileinput/zipball/9e39f4fd901e54b18ef9d9a188f9178c36b709c2",
+                "reference": "9e39f4fd901e54b18ef9d9a188f9178c36b709c2",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "kartik\\plugins\\fileinput\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kartik Visweswaran",
+                    "email": "kartikv2@gmail.com",
+                    "homepage": "http://www.krajee.com/"
+                }
+            ],
+            "description": "An enhanced HTML 5 file input for Bootstrap 3.x with features for file preview for many file types, multiple selection, ajax uploads, and more.",
+            "homepage": "https://github.com/kartik-v/bootstrap-fileinput",
+            "keywords": [
+                "ajax",
+                "bootstrap",
+                "delete",
+                "file",
+                "image",
+                "input",
+                "jquery",
+                "multiple",
+                "preview",
+                "progress",
+                "upload"
+            ],
+            "time": "2017-05-15 02:17:30"
         },
         {
             "name": "knplabs/knp-components",
@@ -3405,16 +3458,78 @@
                 "validate"
             ],
             "time": "2016-11-23T20:04:58+00:00"
+        },
+        {
+            "name": "webonaute/doctrine-fixtures-generator-bundle",
+            "version": "dev-master",
+            "target-dir": "Webonaute/DoctrineFixturesGeneratorBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Webonaute/DoctrineFixturesGeneratorBundle.git",
+                "reference": "59009466fe990823090cb4c9aa2cc4c64edb426e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Webonaute/DoctrineFixturesGeneratorBundle/zipball/59009466fe990823090cb4c9aa2cc4c64edb426e",
+                "reference": "59009466fe990823090cb4c9aa2cc4c64edb426e",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": ">=1.2",
+                "doctrine/doctrine-fixtures-bundle": ">=2.2",
+                "doctrine/orm": ">=2.2",
+                "php": ">=7.0",
+                "sensio/generator-bundle": ">=2.3",
+                "symfony/framework-bundle": ">=2.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0",
+                "symfony/phpunit-bridge": "dev-master"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Webonaute\\DoctrineFixturesGeneratorBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mathieu Delisle",
+                    "email": "mdelisle@webonaute.ca"
+                }
+            ],
+            "description": "Generate Fixture from your existing data in your database. You can specify the Entity name and the IDs you want to import in your fixture.",
+            "keywords": [
+                "Fixture",
+                "Symfony2",
+                "database",
+                "development",
+                "doctrine",
+                "doctrine2",
+                "dumper",
+                "generator",
+                "migration",
+                "symfony",
+                "tests"
+            ],
+            "time": "2017-04-19 21:01:38"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "kartik-v/bootstrap-fileinput": 20,
+        "webonaute/doctrine-fixtures-generator-bundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.5.9 || ^7.0"
+        "php": ">=5.5.9 || ^7.1"
     },
     "platform-dev": [],
     "platform-overrides": {
