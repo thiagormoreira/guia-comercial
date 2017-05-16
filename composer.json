@@ -32,7 +32,6 @@
         "twig/twig": "^1.0||^2.0"
     },
     "require-dev": {
-        "webonaute/doctrine-fixtures-generator-bundle": "dev-master"
     },
     "scripts": {
         "symfony-scripts": [
