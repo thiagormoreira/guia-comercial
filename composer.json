@@ -29,10 +29,10 @@
         "symfony/polyfill-apcu": "^1.0",
         "symfony/swiftmailer-bundle": "^2.3.10",
         "symfony/symfony": "3.2.*",
-        "twig/twig": "^1.0||^2.0",
-        "webonaute/doctrine-fixtures-generator-bundle": "dev-master"
+        "twig/twig": "^1.0||^2.0"
     },
     "require-dev": {
+        "webonaute/doctrine-fixtures-generator-bundle": "dev-master"
     },
     "scripts": {
         "symfony-scripts": [
